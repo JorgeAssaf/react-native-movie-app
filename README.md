@@ -1,10 +1,39 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+This is a Movie App that uses the [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api) to display popular movies, upcoming movies, and search for movies.
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## Step 1: Clone the repository
+
+```bash
+git clone https://github.com/JorgeAssaf/react-native-movie-app.git
+```
+
+## Step 2: Install dependencies
+
+```bash
+# using npm
+npm install
+
+# OR using Yarn
+yarn
+```
+
+yarn install
+
+## Step 3: Pod Install for iOS
+
+```bash
+cd ios
+pod install
+```
+
+## Step 4: Get your API Key
+
+Create an account on [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api) and get an API key.
+
+## Step 5: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
